@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GreenLife — platform aksi nyata lingkungan: pantau jejak karbon, kelola sampah, dan bangun kebiasaan berkelanjutan di Makassar.">
+<title>GreenLife — Jembatani Kesenjangan Antara Tahu dan Bertindak</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+<!-- Bootstrap 3.4.1 (CDN) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body data-spy="scroll" data-target="#gl-navbar" data-offset="110">
+
+<!-- Navigasi utama -->
+<nav class="navbar navbar-fixed-top gl-nav" id="gl-navbar" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gl-menu" aria-expanded="false">
+        <span class="sr-only">Buka menu</span>
+        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#beranda">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2F7A14"/><path d="M29 9C17 9 10 15 10 23c0 2 .6 3.7 1.7 5C13 21 18 16 24 14c-4 3-7 7-8.500 12.500 1 .3 2 .5 3 .5 8 0 12-7 10.500-18z" fill="#fff"/></svg>
+        Green<b>Life</b>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="gl-menu">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#statistik">Statistik</a></li>
+        <li><a href="#edukasi">Edukasi 3R/5R</a></li>
+        <li><a href="#kalkulator">Eco Calculator</a></li>
+        <li><a href="#banksampah">Bank Sampah</a></li>
+        <li><a href="#kebijakan">Dasar Kebijakan</a></li>
+        <li><a href="#realita">Mahasiswa</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Bagian pembuka (hero) -->
+<header class="hero" id="beranda">
+  <div class="container">
+    <div class="row hero-row">
+      <div class="col-md-6">
+        <span class="chip reveal">🌱 Platform Aksi Nyata Lingkungan</span>
+        <h1 class="reveal d1">Jembatani Kesenjangan Antara <em>Tahu</em> dan <em>Bertindak</em> untuk Lingkungan.</h1>
+        <p class="sub reveal d2">Platform aksi nyata lingkungan untuk memantau jejak karbon, mengelola sampah, dan membangun kebiasaan berkelanjutan.</p>
+        <div class="cta reveal d3">
+          <a href="#kalkulator" class="btn-gl btn-lime">Hitung Jejak Karbon <span class="arr">→</span></a>
+          <a href="#banksampah" class="btn-gl btn-ghost">Cari Bank Sampah Makassar</a>
+        </div>
+        <div class="hero-tag reveal d4"><i></i>Berbasis data SIPSN, BMKG, World Bank &amp; KLH</div>
+      </div>
+      <div class="col-md-6 reveal d2"><div class="hero-art"><svg viewBox="0 0 640 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustrasi tunas hijau di dalam lingkaran daur ulang dengan empat wadah pemilahan sampah">
+<defs><linearGradient id="gsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DDEFC9"/><stop offset="1" stop-color="#FFF6DF"/></linearGradient></defs>
+<rect width="640" height="560" fill="url(#gsky)"/>
+<circle cx="520" cy="104" r="52" fill="#F6D27A" opacity=".9"/>
+<g fill="#fff" opacity=".85"><ellipse cx="120" cy="96" rx="52" ry="16"/><ellipse cx="156" cy="84" rx="34" ry="14"/><ellipse cx="470" cy="214" rx="46" ry="13"/></g>
+<path d="M0 372Q170 292 330 350T640 330V560H0Z" fill="#CFE7B5"/>
+<path d="M0 430Q210 362 410 420T640 404V560H0Z" fill="#A5D17F"/>
+<path d="M0 486Q320 452 640 486V560H0Z" fill="#7DBF52"/>
+<path d="M96 510C104 450 98 400 112 352" fill="none" stroke="#8A6A45" stroke-width="9" stroke-linecap="round"/><g transform="translate(112 352) rotate(15)"><path d="M0 0C24-22 62-24 88-4C60-8 30-6 0 0Z" fill="#3E8E3A"/></g><g transform="translate(112 352) rotate(-20)"><path d="M0 0C24-22 62-24 88-4C60-8 30-6 0 0Z" fill="#3E8E3A"/></g><g transform="translate(112 352) rotate(-55)"><path d="M0 0C24-22 62-24 88-4C60-8 30-6 0 0Z" fill="#3E8E3A"/></g><g transform="translate(112 352) rotate(165)"><path d="M0 0C24-22 62-24 88-4C60-8 30-6 0 0Z" fill="#3E8E3A"/></g><g transform="translate(112 352) rotate(200)"><path d="M0 0C24-22 62-24 88-4C60-8 30-6 0 0Z" fill="#3E8E3A"/></g><g transform="translate(112 352) rotate(235)"><path d="M0 0C24-22 62-24 88-4C60-8 30-6 0 0Z" fill="#3E8E3A"/></g><circle cx="106" cy="360" r="6" fill="#8A6A45"/><circle cx="119" cy="362" r="6" fill="#8A6A45"/>
+<circle cx="320" cy="232" r="128" fill="#fff" opacity=".78"/>
+<path d="M352.8 131.2A106 106 0 0 1 423.7 254.0" fill="none" stroke="#4DAF22" stroke-width="13" stroke-linecap="round"/><polygon points="419.9,271.6 436.4,256.7 411.0,251.3" fill="#4DAF22"/><path d="M390.9 310.8A106 106 0 0 1 249.1 310.8" fill="none" stroke="#3A86B8" stroke-width="13" stroke-linecap="round"/><polygon points="235.7,298.7 240.4,320.4 257.8,301.1" fill="#3A86B8"/><path d="M216.3 254.0A106 106 0 0 1 287.2 131.2" fill="none" stroke="#F6C93F" stroke-width="13" stroke-linecap="round"/><polygon points="304.4,125.6 283.2,118.8 291.3,143.6" fill="#F6C93F"/>
+<circle cx="320" cy="232" r="78" fill="#fff"/>
+<path d="M320 282V222" stroke="#2F7A14" stroke-width="6" stroke-linecap="round"/>
+<path d="M320 252C288 254 268 234 266 206C296 206 318 224 320 252Z" fill="#4DAF22"/>
+<path d="M320 234C320 202 340 180 374 178C376 210 356 232 320 234Z" fill="#7BC043"/>
+<ellipse cx="320" cy="284" rx="34" ry="8" fill="#A47B52"/>
+<path d="M150 458h52l-5 46h-42z" fill="#4DAF22"/><rect x="146" y="449" width="60" height="10" rx="4" fill="#3B7B20"/><rect x="164" y="470" width="24" height="4" rx="2" fill="#fff" opacity=".55"/><path d="M234 458h52l-5 46h-42z" fill="#3A86B8"/><rect x="230" y="449" width="60" height="10" rx="4" fill="#2B6A94"/><rect x="248" y="470" width="24" height="4" rx="2" fill="#fff" opacity=".55"/><path d="M318 458h52l-5 46h-42z" fill="#C8553D"/><rect x="314" y="449" width="60" height="10" rx="4" fill="#A4412D"/><rect x="332" y="470" width="24" height="4" rx="2" fill="#fff" opacity=".55"/><path d="M402 458h52l-5 46h-42z" fill="#8A6A45"/><rect x="398" y="449" width="60" height="10" rx="4" fill="#6B4F31"/><rect x="416" y="470" width="24" height="4" rx="2" fill="#fff" opacity=".55"/>
+</svg></div></div>
+    </div>
+    <div class="hero-stats">
+      <div class="hs reveal"><b>67,1%</b><span>sampah nasional belum terkelola (SIPSN 2025)</span></div>
+      <div class="hs reveal d1"><b>1.000–1.200 ton</b><span>sampah per hari di Kota Makassar</span></div>
+      <div class="hs reveal d2"><b>171 BSU</b><span>Bank Sampah Unit tercatat di portal DLH Makassar</span></div>
+    </div>
+  </div>
+</header>
+<div class="ticker">
+  <span>SIPSN 2025</span><span>World Bank 2021</span><span>BMKG 2025</span><span>KLH — Inventarisasi GRK</span><span>BNPB 2025</span><span>UU No. 18/2008</span>
+</div>
+
+
+<!-- Fitur dan langkah memulai -->
+<section id="fitur" class="sec-soft">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Fitur Utama</span>
+      <h2>Semua yang Kamu Butuhkan untuk Hidup Lebih Hijau</h2>
+      <p>Yuk mulai dari yang paling dekat denganmu. Dari data sampai langkah kecil di rumah, semuanya sudah kami rangkum di sini untukmu.</p>
+    </div>
+    <div class="row row-eq">
+      <div class="col-sm-6 col-md-4 reveal"><a class="fcard" href="#statistik"><span class="fic" style="--c:#4DAF22">📊</span><h4>Data Lingkungan</h4><p>Statistik sampah, plastik, dan emisi dari SIPSN, BMKG, dan World Bank.</p></a></div>
+      <div class="col-sm-6 col-md-4 reveal d1"><a class="fcard" href="#edukasi"><span class="fic" style="--c:#3B82C4">♻️</span><h4>Edukasi 3R/5R</h4><p>Dampak sampah, prinsip pengurangan, dan panduan memilah di rumah.</p></a></div>
+      <div class="col-sm-6 col-md-4 reveal d2"><a class="fcard" href="#game"><span class="fic" style="--c:#D9A21B">🎮</span><h4>Mini Game Pilah</h4><p>Uji kemampuanmu memilah sampah ke empat wadah dalam 8 soal.</p></a></div>
+      <div class="col-sm-6 col-md-4 reveal"><a class="fcard" href="#kalkulator"><span class="fic" style="--c:#1F9E9E">🧮</span><h4>Eco Calculator</h4><p>Hitung jejak karbon harian dari listrik, transportasi, dan makanan.</p></a></div>
+      <div class="col-sm-6 col-md-4 reveal d1"><a class="fcard" href="#banksampah"><span class="fic" style="--c:#A9744F">🏦</span><h4>Bank Sampah Makassar</h4><p>Harga, peta, dan kontak 171 Bank Sampah Unit terdata.</p></a></div>
+      <div class="col-sm-6 col-md-4 reveal d2"><a class="fcard" href="#kebijakan"><span class="fic" style="--c:#D96C4A">⚖️</span><h4>Dasar Kebijakan</h4><p>UU 18/2008 serta target SDG 12 dan 13 sebagai landasan.</p></a></div>
+    </div>
+
+    <div class="how reveal">
+      <h3>Mulai dalam 4 Langkah</h3>
+      <ol>
+        <li><span>1</span><b>Pahami</b>Baca data dan dampaknya.</li>
+        <li><span>2</span><b>Pilah</b>Pisahkan sampah di rumah.</li>
+        <li><span>3</span><b>Hitung</b>Cek jejak karbon harianmu.</li>
+        <li><span>4</span><b>Setor</b>Tabung ke bank sampah terdekat.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- Statistik sampah dan iklim -->
+<section id="statistik">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Fakta &amp; Data Lingkungan</span>
+      <h2>Angka yang Tidak Bisa Kita Abaikan</h2>
+      <p>Empat potret data — dari nasional hingga Makassar — yang menjelaskan mengapa perubahan kebiasaan harus dimulai sekarang.</p>
+    </div>
+
+    <div class="row row-eq">
+      <!-- Statistik 1: sampah nasional -->
+      <div class="col-md-6 reveal">
+        <div class="bento accent">
+          <div class="tag"><i>1</i> Sampah Nasional · SIPSN 2025</div>
+          <span class="big"><span data-count="29.2" data-dec="1">29,2</span><small>juta ton / tahun</small></span>
+          <p>Timbulan sampah nasional yang dilaporkan 278 kabupaten/kota ke SIPSN. Jika seluruh 514 kabupaten/kota melapor, estimasi KLHK untuk 2023 mencapai sekitar 64,6 juta ton, dan data internal KLH/BPLH (Desember 2025) menyebut sekitar 71 juta ton.</p>
+          <div class="split" aria-label="Terkelola 32,9 persen, belum terkelola 67,1 persen"><span class="ok">32,9% terkelola</span><span class="no">67,1% belum terkelola</span></div>
+          <p>Sampah terkelola (pengurangan + penanganan) baru 32,9% (9,61 juta ton/tahun). Sisanya, 67,1% (19,59 juta ton/tahun), tidak terkelola dan berpotensi terbuang ke lingkungan.</p>
+          <table class="tbl-lite">
+            <tr><th>Capaian SIPSN 2025</th><th>Nilai</th></tr>
+            <tr><td>Pengurangan sampah</td><td>2,14%</td></tr>
+            <tr><td>Penanganan sampah</td><td>30,76%</td></tr>
+            <tr><td>Masuk TPA controlled/sanitary landfill</td><td>4,32 juta ton/tahun</td></tr>
+            <tr><td>Masuk TPA open dumping</td><td>8,47 juta ton/tahun</td></tr>
+          </table>
+          <p>Target Perpres 97/2017 untuk 2025 adalah pengurangan 30% dan penanganan 70%; capaian saat ini masih jauh dari target.</p>
+          <div class="bars">
+            <div class="bar-row"><span class="lbl">Sisa makanan</span><span class="trk"><span class="fil" style="--w:100%"></span></span><span class="val">40,77%</span></div>
+            <div class="bar-row"><span class="lbl">Plastik</span><span class="trk"><span class="fil hl" style="--w:50.3%"></span></span><span class="val">20,52%</span></div>
+            <div class="bar-row"><span class="lbl">Kayu/ranting</span><span class="trk"><span class="fil" style="--w:32.2%"></span></span><span class="val">13,13%</span></div>
+            <div class="bar-row"><span class="lbl">Kertas/karton</span><span class="trk"><span class="fil" style="--w:28%"></span></span><span class="val">11,40%</span></div>
+          </div>
+          <div class="mini-grid">
+            <div><span class="big big-md"><span data-count="56.7" data-dec="1">56,7</span>%</span><p>timbulan terbesar berasal dari sektor rumah tangga</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Statistik 2: Sulawesi Selatan dan Makassar -->
+      <div class="col-md-6 reveal d1">
+        <div class="bento">
+          <div class="tag"><i>2</i> Sulawesi Selatan &amp; Kota Makassar</div>
+          <span class="big">1,42<small>juta ton/tahun (Sulsel)</small></span>
+          <p>Tercatat 74,71% terkelola, jauh di atas rata-rata nasional 32,9%. Capaian antar daerah timpang (Kabupaten Luwu hanya 0,01%), jadi angka ini dibaca sebagai data pelaporan yang belum merata.</p>
+          <div class="mini-grid">
+            <div><span class="big big-md">1.000–1.200<small>ton/hari</small></span><p>timbulan Kota Makassar</p></div>
+            <div><span class="big big-md"><span data-count="54" data-dec="0">54</span>%</span><p>organik, sumber bau, air lindi, dan gas metana di TPA Tamangapa</p></div>
+            <div><span class="big big-md">0,6<small>kg/orang/hari</small></span><p>rata-rata timbulan warga Makassar</p></div>
+            <div><span class="big big-md">11,53%</span><p>kenaikan sampah per tahun, sedangkan penduduk 1,30%</p></div>
+          </div>
+          <div class="alert-gl"><b>Kebijakan TPA Residu.</b> Sejak 1 Agustus 2026, TPA Tamangapa (beroperasi sejak 1993, menampung sekitar 7 juta metrik ton) hanya menerima sampah residu. Sebelumnya, KLH memberi sanksi administratif (Maret 2026) agar TPA beralih dari open dumping ke sanitary landfill. Sampah ke TPA turun ke sekitar 600 ton/hari (berkurang 30–40%) menurut keterangan narasumber pemkot. Pilah dari rumah!</div>
+        </div>
+      </div>
+
+      <!-- Statistik 3: plastik dan laut -->
+      <div class="col-md-6 reveal">
+        <div class="bento">
+          <div class="tag"><i>3</i> Sampah Plastik &amp; Laut</div>
+          <span class="big"><span data-count="7.8" data-dec="1">7,8</span><small>juta ton/tahun</small></span>
+          <p>Plastik yang dihasilkan Indonesia; 63% di antaranya tidak terkelola dengan baik.</p>
+          <div class="mini-grid">
+            <div><span class="big big-md"><span data-count="346.5" data-dec="1">346,5</span><small>ribu ton</small></span><p>per tahun bocor dari daratan ke laut (kisaran 201–552 ribu)</p></div>
+            <div><span class="big big-md">83%</span><p>kebocoran itu dibawa sungai; 17% langsung dari pesisir</p></div>
+          </div>
+          <table class="tbl-lite">
+            <tr><th>Jenis plastik</th><th>Estimasi terurai</th></tr>
+            <tr><td>Kantong plastik sekali pakai</td><td>200–1.000 tahun</td></tr>
+            <tr><td>Botol plastik</td><td>450–500 tahun</td></tr>
+            <tr><td>Gelas plastik</td><td>50–100 tahun</td></tr>
+            <tr><td>Kontainer plastik</td><td>50–80 tahun</td></tr>
+          </table>
+          <p>Waktu urai adalah estimasi KLHK, bukan pengukuran pasti. Plastik pecah menjadi mikroplastik yang bertahan di tanah, air, dan rantai makanan.</p>
+          <p>Estimasi kebocoran plastik ke laut berbeda antarstudi karena metode berbeda, misalnya BRIN (2025) 200–650 ribu ton/tahun dan USAID SELARAS (2024) sekitar 620 ribu ton. Porsi plastik dalam timbulan naik dari 15,88% (2019) menjadi 19,64% (2024). Perpres 83/2018 menargetkan penurunan kebocoran plastik ke laut 70% pada 2025.</p>
+        </div>
+      </div>
+
+      <!-- Statistik 4: iklim dan gas rumah kaca -->
+      <div class="col-md-6 reveal d1">
+        <div class="bento">
+          <div class="tag"><i>4</i> Iklim &amp; Gas Rumah Kaca</div>
+          <div class="mini-grid" style="margin-top:0">
+            <div><span class="big big-md">+0,38<small>°C</small></span><p>Anomali suhu Indonesia 2025 (27,05 °C dibanding normal 26,7 °C); tahun terpanas ke-6 sejak 1981.</p></div>
+            <div><span class="big big-md">+1,1<small>°C</small></span><p>suhu global 2011–2020 dibanding 1850–1900; penyebab utama aktivitas manusia.</p></div>
+            <div><span class="big big-md">1 : 28</span><p>1 ton metana setara 28 ton CO₂. Metana terbentuk dari pembusukan organik tanpa oksigen di TPA, dan 50–70% gas TPA adalah metana.</p></div>
+          </div>
+          <div class="bars">
+            <p class="bars-title">Emisi GRK Indonesia 2023 menurut sektor (total 1.360,35 juta ton CO₂e)</p>
+            <div class="bar-row"><span class="lbl">Energi</span><span class="trk"><span class="fil" style="--w:100%"></span></span><span class="val">55,3%</span></div>
+            <div class="bar-row"><span class="lbl">Kehutanan/lahan</span><span class="trk"><span class="fil" style="--w:40.9%"></span></span><span class="val">22,6%</span></div>
+            <div class="bar-row"><span class="lbl hl-text">Limbah</span><span class="trk"><span class="fil hl" style="--w:18.1%"></span></span><span class="val hl-text">10,0%</span></div>
+            <div class="bar-row"><span class="lbl">Pertanian</span><span class="trk"><span class="fil" style="--w:13.9%"></span></span><span class="val">7,7%</span></div>
+            <div class="bar-row"><span class="lbl">Proses industri</span><span class="trk"><span class="fil" style="--w:8%"></span></span><span class="val">4,4%</span></div>
+          </div>
+          <p>Sektor limbah menyumbang <b>136,34 juta ton CO₂e (10%)</b>. Target Enhanced NDC 2030: turun 40 juta ton CO₂e (usaha sendiri) dan 43,5 juta ton CO₂e (dengan bantuan internasional). Subsektor limbah padat domestik ditargetkan net zero pada 2050. Susut dan sisa pangan 2000–2019 menghasilkan 1.702,9 juta ton CO₂e (7,29% rata-rata emisi GRK tahunan Indonesia).</p>
+        </div>
+      </div>
+    </div>
+    <p class="data-note">Catatan data: angka SIPSN berubah mengikuti jumlah daerah pelapor (misalnya 2024: 27,74 juta ton dari 274 daerah dan 35,01 juta ton dari 321 daerah; 2025: 29,2 juta ton dari 278 daerah), sehingga antarpotret tidak dapat dibandingkan langsung.</p>
+  </div>
+</section>
+
+<!-- Edukasi: dampak, 3R/5R, dan pemilahan -->
+<section id="edukasi">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Edukasi 3R / 5R</span>
+      <h2>Dari Memahami Dampak hingga Memilah di Rumah</h2>
+      <p>Tiga langkah: kenali dampaknya, terapkan prinsip pengurangan sampah, lalu pilah dengan benar.</p>
+    </div>
+
+    <!-- Dampak sampah -->
+    <div class="block">
+      <h3 class="sub-title reveal">A. Dampak Sampah</h3>
+      <p class="sub-lead reveal">Sampah yang tidak dikelola berdampak pada kesehatan, keselamatan, dan dompet kita.</p>
+      <div class="row row-eq">
+        <div class="col-md-4 reveal"><div class="imp" style="--c:#C2574A;--bg:#FBE3DF">
+          <div class="ico">🦟</div><h4>Dampak Kesehatan</h4>
+          <p>Pembuangan sampah yang tidak benar mencemari air, tanah, dan udara. Pembakaran terbuka membahayakan pekerja sampah dan warga sekitar, terutama anak-anak. Sampah yang menyumbat drainase memicu banjir dan genangan, tempat berkembangnya kolera, malaria, dan demam berdarah. Wadah plastik bekas penampung air hujan menjadi tempat nyamuk <i>Aedes</i> berkembang biak.</p></div></div>
+        <div class="col-md-4 reveal d1"><div class="imp" style="--c:#3A86B8;--bg:#DDEBFA">
+          <div class="ico">🌊</div><h4>Bencana Hidrometeorologi</h4>
+          <span class="fig">98,97%</span>
+          <p>dari 2.919 kejadian bencana (Januari–24 November 2025) adalah hidrometeorologi. Banjir paling sering terjadi (1.502 kejadian hingga 28 November 2025). BNPB mengimbau warga membersihkan drainase dan tidak membuang sampah ke sungai karena dapat menyumbat aliran air.</p></div></div>
+        <div class="col-md-4 reveal d2"><div class="imp" style="--c:#B7791F;--bg:#FDF1D3">
+          <div class="ico">💸</div><h4>Kerugian Ekonomi</h4>
+          <span class="fig">Rp213–551 T</span>
+          <p>kerugian ekonomi per tahun akibat susut dan sisa pangan (<i>food loss and waste</i>), setara 4–5% PDB. Pangan yang hilang setara kebutuhan makan 61–125 juta orang per tahun. Ekonomi sirkular diperkirakan menambah PDB hingga Rp638 triliun pada 2030.</p></div></div>
+      </div>
+    </div>
+
+    <!-- Prinsip 3R dan 5R -->
+    <div class="block">
+      <h3 class="sub-title reveal">B. Pengurangan Sampah: Prinsip 3R &amp; 5R</h3>
+      <p class="sub-lead reveal">3R adalah kerangka hukum resmi; 5R adalah pengembangan praktis gaya hidup zero waste.</p>
+      <div class="rule3 reveal">
+        <div class="head"><small>Dasar Resmi</small><h4>3R — UU No. 18/2008</h4></div>
+        <div class="r"><b>Reduce</b><span>Pembatasan timbulan sampah dari sumber.</span></div>
+        <div class="r"><b>Reuse</b><span>Pemanfaatan kembali: memakai ulang barang.</span></div>
+        <div class="r"><b>Recycle</b><span>Pendauran ulang: mengolah sampah menjadi bahan atau produk baru.</span></div>
+      </div>
+      <div class="steps5">
+        <div class="step5 reveal"><div class="circle">🚫<span class="n">1</span></div><h5>Refuse</h5><p>Tolak kantong plastik dan sedotan, serta brosur atau suvenir yang tidak perlu.</p></div>
+        <div class="step5 reveal d1"><div class="circle">📉<span class="n">2</span></div><h5>Reduce</h5><p>Beli secukupnya, rencanakan menu agar makanan tidak terbuang, dan pilih produk isi ulang.</p></div>
+        <div class="step5 reveal d2"><div class="circle">🥤<span class="n">3</span></div><h5>Reuse</h5><p>Bawa tas belanja, botol minum, dan wadah makan sendiri; pakai kembali toples atau botol bekas.</p></div>
+        <div class="step5 reveal d3"><div class="circle">♻️<span class="n">4</span></div><h5>Recycle</h5><p>Setor plastik, kertas, kaleng, dan kaca yang bersih ke bank sampah atau pengepul.</p></div>
+        <div class="step5 reveal d4"><div class="circle">🪱<span class="n">5</span></div><h5>Rot</h5><p>Olah sisa dapur dan daun menjadi kompos; manfaatkan maggot dan biopori.</p></div>
+      </div>
+      <div class="info-box reveal"><b>Prioritas aksi berdasarkan data</b>
+        <ul class="prio">
+          <li>Sisa makanan sekitar 40% dari timbulan, jadi belanja sesuai kebutuhan, simpan makanan dengan benar, dan habiskan porsi.</li>
+          <li>Porsi plastik terus naik, jadi tolak dan kurangi plastik sekali pakai, terutama kemasan kecil dan sachet.</li>
+          <li>Jangan membakar sampah: pembakaran terbuka membahayakan kesehatan dan menambah emisi.</li>
+          <li>Jangan membuang sampah ke sungai atau saluran air karena menyumbat drainase.</li>
+          <li>Buang hanya residu ke tempat sampah umum jika daerahmu menerapkan kebijakan TPA residu, seperti Makassar sejak Agustus 2026.</li>
+        </ul></div>
+      <div class="info-box reveal"><b>Dasar hukum</b><span>UU No. 18/2008 Pasal 20 mengatur tiga kegiatan pengurangan sampah (3R): pembatasan timbulan, pendauran ulang, dan pemanfaatan kembali. Istilah 5R tidak tercantum dalam UU tersebut; Refuse dan Rot adalah pengembangan praktis gerakan zero waste.</span></div>
+    </div>
+
+    <!-- Panduan pemilahan sampah rumah tangga -->
+    <div class="block">
+      <h3 class="sub-title reveal">C. Panduan 4 Kategori Pemilahan Sampah di Rumah</h3>
+      <p class="sub-lead reveal">PP 81/2012 Pasal 17 membagi sampah paling sedikit menjadi lima jenis (B3, mudah terurai, dapat digunakan kembali, dapat didaur ulang, lainnya). Banyak pemda menyederhanakannya menjadi empat kelompok. Warna wadah hanyalah usulan GreenLife agar mudah diingat.</p>
+      <div class="row row-eq">
+        <div class="col-sm-6 col-md-3 reveal"><div class="bin" style="--c:#4DAF22">
+          <div class="top"><svg viewBox="0 0 48 48"><path d="M10 14h28l-3 28H13z" fill="#fff" fill-opacity=".95"/><rect x="8" y="9" width="32" height="5" rx="2.5" fill="#fff"/><rect x="19" y="5" width="10" height="5" rx="2" fill="#fff"/><path d="M24 20c-5 0-8 3-8 8 5 0 8-3 8-8zm0 0c4 0 7 3 7 7-4 0-7-2-7-7z" fill="#4DAF22"/></svg><div><h4>Organik</h4><small>Mudah terurai · Wadah Hijau</small></div></div>
+          <div class="body"><h6>Jenis sampah</h6><p>Sisa nasi dan lauk, kulit buah dan sayur, ampas kopi/teh, daun kering, ranting, rumput.</p><h6>Tindakan lanjutan</h6><p>Dikompos, dibuat biopori, atau diolah dengan maggot.</p></div></div></div>
+        <div class="col-sm-6 col-md-3 reveal d1"><div class="bin" style="--c:#3A86B8">
+          <div class="top"><svg viewBox="0 0 48 48"><path d="M10 14h28l-3 28H13z" fill="#fff" fill-opacity=".95"/><rect x="8" y="9" width="32" height="5" rx="2.5" fill="#fff"/><rect x="19" y="5" width="10" height="5" rx="2" fill="#fff"/><path d="M24 20l5 8h-3.500l1.500 4h-6l-3-5 2-3zm-5.500 4.500L21 21" fill="none" stroke="#3A86B8" stroke-width="2.500" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h4>Anorganik</h4><small>Dapat didaur ulang · Wadah Biru</small></div></div>
+          <div class="body"><h6>Jenis sampah</h6><p>Botol dan gelas plastik, kardus, kertas, kaleng, botol kaca, logam, kabel.</p><h6>Tindakan lanjutan</h6><p>Dibilas, dikeringkan, lalu disetor ke bank sampah atau pengepul.</p></div></div></div>
+        <div class="col-sm-6 col-md-3 reveal d2"><div class="bin" style="--c:#C8553D">
+          <div class="top"><svg viewBox="0 0 48 48"><path d="M10 14h28l-3 28H13z" fill="#fff" fill-opacity=".95"/><rect x="8" y="9" width="32" height="5" rx="2.5" fill="#fff"/><rect x="19" y="5" width="10" height="5" rx="2" fill="#fff"/><path d="M24 20l7 13H17z" fill="none" stroke="#C8553D" stroke-width="2.500" stroke-linejoin="round"/><rect x="23" y="24" width="2" height="5" fill="#C8553D"/><rect x="23" y="30" width="2" height="2" fill="#C8553D"/></svg><div><h4>B3 Rumah Tangga</h4><small>Berbahaya &amp; beracun · Wadah Merah</small></div></div>
+          <div class="body"><h6>Jenis sampah</h6><p>Baterai, lampu bekas, obat kedaluwarsa, kemasan pestisida/pembasmi serangga, elektronik rusak, tinta/cat.</p><h6>Tindakan lanjutan</h6><p>Dikemas rapi dan tidak dicampur; serahkan ke titik pengumpulan B3 atau <i>drop box</i>.</p></div></div></div>
+        <div class="col-sm-6 col-md-3 reveal d3"><div class="bin" style="--c:#8A6A45">
+          <div class="top"><svg viewBox="0 0 48 48"><path d="M10 14h28l-3 28H13z" fill="#fff" fill-opacity=".95"/><rect x="8" y="9" width="32" height="5" rx="2.5" fill="#fff"/><rect x="19" y="5" width="10" height="5" rx="2" fill="#fff"/><path d="M18 22l12 14M30 22L18 36" stroke="#8A6A45" stroke-width="2.500" stroke-linecap="round"/></svg><div><h4>Residu</h4><small>Sulit diolah · Wadah Cokelat</small></div></div>
+          <div class="body"><h6>Jenis sampah</h6><p>Popok dan pembalut sekali pakai, styrofoam kotor, kemasan sachet multilayer, puntung rokok, kaca/keramik pecah.</p><h6>Tindakan lanjutan</h6><p>Dibuang ke TPS/TPA melalui petugas.</p></div></div></div>
+      </div>
+
+      <ul class="steps-home reveal">
+        <li>Siapkan minimal 3 wadah (organik, anorganik, residu) + 1 kotak kecil untuk B3.</li>
+        <li>Pisahkan sisa makanan sejak dari dapur agar sampah kering tidak kotor.</li>
+        <li>Bilas &amp; keringkan botol, kaleng, dan wadah plastik sebelum disimpan.</li>
+        <li>Ratakan kardus dan botol agar hemat tempat.</li>
+        <li>Olah organik jadi kompos/maggot; setor anorganik ke bank sampah.</li>
+        <li>Serahkan B3 ke titik pengumpulan resmi. Jangan membakar atau mengubur sampah.</li>
+      </ul>
+
+      <!-- Mini game pemilahan -->
+      <div class="gamebox reveal" id="game">
+        <span class="chip" style="background:rgba(255,255,255,.15);color:#fff">Coba Sendiri</span>
+        <h4>Sampah Ini Masuk Wadah Mana?</h4>
+        <div class="score">Skor: <span id="g-score">0</span> / <span id="g-total">8</span> · Soal <span id="g-no">1</span></div>
+        <div class="game-item" id="g-item">—</div>
+        <div class="game-btns">
+          <button style="background:#4DAF22" data-cat="organik">🟢 Organik</button>
+          <button style="background:#3A86B8" data-cat="anorganik">🔵 Anorganik</button>
+          <button style="background:#C8553D" data-cat="b3">🔴 B3</button>
+          <button style="background:#8A6A45" data-cat="residu">🟤 Residu</button>
+        </div>
+        <div class="game-fb" id="g-fb" aria-live="polite"></div>
+        <button type="button" class="btn-gl btn-lime" id="g-restart" style="display:none;margin-top:6px">Main Lagi</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Eco Calculator: input, hasil, dan dasar perhitungan -->
+<section id="kalkulator">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Eco Calculator</span>
+      <h2>Hitung Jejak Karbon Harianmu</h2>
+      <p>Masukkan rata-rata konsumsi harian — listrik, transportasi, dan makanan — untuk estimasi emisi pribadimu.</p>
+    </div>
+    <div class="row row-eq">
+      <div class="col-md-6 reveal">
+        <form class="calc-card" id="calc" onsubmit="return false;" novalidate>
+          <h4>Konsumsi Harian</h4>
+          <p style="color:var(--muted);font-size:14px;margin-bottom:24px">Kosongkan atau isi 0 bila tidak ada.</p>
+
+          <div class="fgroup">
+            <label for="in-listrik">⚡ Konsumsi Listrik Harian (kWh)</label>
+            <input type="number" class="form-control gl-input" id="in-listrik" min="0" step="0.1" placeholder="mis. 5">
+            <small>Faktor emisi 0,95 kg CO₂/kWh (grid Sulselbar/Makassar — Kepmen ESDM No. 163.K/HK.02/MEM.S/2021).</small>
+          </div>
+
+          <div class="fgroup">
+            <span class="lab">🛵 Transportasi Harian</span>
+            <div class="row">
+              <div class="col-xs-7"><select class="form-control gl-input" id="in-kendaraan">
+                <option value="0">Jalan kaki / sepeda</option>
+                <option value="0.08319">Motor kecil</option>
+                <option value="0.10107">Motor sedang</option>
+                <option value="0.11367">Motor rata-rata</option>
+                <option value="0.16152">Mobil rata-rata (bensin)</option>
+              </select></div>
+              <div class="col-xs-5"><input type="number" class="form-control gl-input" id="in-km" min="0" step="0.1" placeholder="km / hari"></div>
+            </div>
+            <small>0,08319 · 0,11367 · 0,16152 kg CO₂e/km (UK Gov. Conversion Factors 2026, pendekatan).</small>
+          </div>
+
+          <div class="fgroup" style="margin-bottom:10px">
+            <span class="lab">🍚 Konsumsi Makanan Harian (kg)</span>
+            <div class="food-grid">
+              <div><label for="f-sapi">Daging sapi (potong) <em>99,48</em></label><input type="number" class="form-control gl-input food" id="f-sapi" data-f="99.48" min="0" step="0.05" placeholder="0"></div>
+              <div><label for="f-ayam">Daging ayam <em>9,87</em></label><input type="number" class="form-control gl-input food" id="f-ayam" data-f="9.87" min="0" step="0.05" placeholder="0"></div>
+              <div><label for="f-beras">Beras <em>4,45</em></label><input type="number" class="form-control gl-input food" id="f-beras" data-f="4.45" min="0" step="0.05" placeholder="0"></div>
+              <div><label for="f-tahu">Tahu <em>3,16</em></label><input type="number" class="form-control gl-input food" id="f-tahu" data-f="3.16" min="0" step="0.05" placeholder="0"></div>
+              <div><label for="f-telur">Telur <em>4,67</em></label><input type="number" class="form-control gl-input food" id="f-telur" data-f="4.67" min="0" step="0.05" placeholder="0"></div>
+              <div><label for="f-buah">Pisang <em>0,86</em></label><input type="number" class="form-control gl-input food" id="f-buah" data-f="0.86" min="0" step="0.05" placeholder="0"></div>
+            </div>
+            <a class="more-link" role="button" data-toggle="collapse" href="#food-more" aria-expanded="false" aria-controls="food-more">Tampilkan 11 bahan pangan lain</a>
+            <div class="collapse" id="food-more"><div class="food-grid">
+                <div><label for="f-kambing">Daging domba/kambing <em>39,72</em></label><input type="number" class="form-control gl-input food" id="f-kambing" data-f="39.72" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-sapiperah">Daging sapi (sapi perah) <em>33,3</em></label><input type="number" class="form-control gl-input food" id="f-sapiperah" data-f="33.3" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-udang">Udang budidaya <em>26,87</em></label><input type="number" class="form-control gl-input food" id="f-udang" data-f="26.87" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-keju">Keju <em>23,88</em></label><input type="number" class="form-control gl-input food" id="f-keju" data-f="23.88" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-babi">Daging babi <em>12,31</em></label><input type="number" class="form-control gl-input food" id="f-babi" data-f="12.31" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-susu">Susu <em>3,15</em></label><input type="number" class="form-control gl-input food" id="f-susu" data-f="3.15" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-tomat">Tomat <em>2,09</em></label><input type="number" class="form-control gl-input food" id="f-tomat" data-f="2.09" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-jagung">Jagung <em>1,7</em></label><input type="number" class="form-control gl-input food" id="f-jagung" data-f="1.7" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-gandum">Gandum dan rye <em>1,57</em></label><input type="number" class="form-control gl-input food" id="f-gandum" data-f="1.57" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-polong">Kacang polong <em>0,98</em></label><input type="number" class="form-control gl-input food" id="f-polong" data-f="0.98" min="0" step="0.05" placeholder="0"></div>
+                <div><label for="f-nuts">Kacang pohon (nuts) <em>0,43</em></label><input type="number" class="form-control gl-input food" id="f-nuts" data-f="0.43" min="0" step="0.05" placeholder="0"></div>
+            </div></div>
+            <small>Angka miring = kg CO₂e per kg produk (Poore &amp; Nemecek 2018, rata-rata global).</small>
+          </div>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px">
+            <button type="button" class="btn-gl btn-dark-gl" id="btn-hitung">Hitung Sekarang</button>
+            <button type="button" class="btn-gl" id="btn-contoh" style="background:var(--sand);color:var(--forest)">Isi Contoh</button>
+            <button type="button" class="btn-gl" id="btn-reset" style="background:transparent;color:var(--muted)">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6 reveal d1">
+        <div class="result" id="result">
+          <div class="tag">Total Jejak Karbon Harian</div>
+          <div class="total" id="r-total">0,00</div>
+          <div class="unit">kg CO₂e / hari</div>
+
+          <div class="brk" aria-hidden="true"><span id="b-listrik" style="width:0;background:#F2C14E"></span><span id="b-trans" style="width:0;background:#B6DE8F"></span><span id="b-food" style="width:0;background:#7CC4E8"></span></div>
+          <div class="legend">
+            <span><i style="background:#F4C542"></i>Listrik <b id="l-listrik">0,00</b></span>
+            <span><i style="background:#74C69D"></i>Transportasi <b id="l-trans">0,00</b></span>
+            <span><i style="background:#4299E1"></i>Makanan <b id="l-food">0,00</b></span>
+          </div>
+
+          <h5 style="color:#fff;font-size:16px;margin-bottom:12px">Rekomendasi Aksi</h5>
+          <div id="r-top"></div>
+          <div class="reco"><b>Saran Aksi 1:</b> Ganti daging sapi dengan tahu: emisi per kg turun sekitar 97% (99,48 menjadi 3,16 kg CO₂e/kg).</div>
+          <div class="reco"><b>Saran Aksi 2 (saran umum):</b> Kurangi penggunaan kendaraan pribadi untuk jarak &lt;1 km dengan berjalan kaki atau bersepeda.</div>
+          <div class="disclaimer">Hasil adalah perkiraan edukatif, bukan pengukuran resmi jejak karbon. Faktor transportasi memakai data Inggris sebagai pendekatan; faktor makanan adalah rata-rata global.</div>
+        </div>
+      </div>
+    </div>
+    <div class="calc-basis">
+      <h3 class="sub-title reveal">Dasar Perhitungan</h3>
+      <p class="sub-lead reveal">Semua faktor emisi di bawah ini yang dipakai kalkulator. Hasilnya perkiraan edukatif, bukan pengukuran resmi jejak karbon.</p>
+      <div class="row row-eq">
+        <div class="col-md-12 reveal"><div class="info-box"><b>1. Listrik: faktor emisi grid (kg CO₂/kWh)</b>
+          <span>Ditetapkan Kementerian ESDM melalui Kepmen ESDM No. 163.K/HK.02/MEM.S/2021 (30 Agustus 2021), memuat pemutakhiran data 2019. Makassar termasuk grid Sulselbar. Rumus: emisi listrik (kg CO₂) = konsumsi (kWh) × 0,95.</span>
+          <div class="table-wrap"><table class="data-table"><thead><tr><th>Grid</th><th>OM</th><th>BM</th><th>CM ex-post 0,5/0,5</th><th>CM ex-post 0,75/0,25</th><th>CM ex-ante 0,5/0,5</th><th>CM ex-ante 0,75/0,25</th></tr></thead><tbody><tr class=hl><td>Sulselbar (dipakai)</td><td>0,73</td><td>1,17</td><td>0,95</td><td>0,84</td><td>0,95</td><td>0,84</td></tr><tr><td>Jamali</td><td>0,80</td><td>0,94</td><td>0,87</td><td>0,84</td><td>0,87</td><td>0,83</td></tr><tr><td>Sumatera</td><td>0,77</td><td>1,12</td><td>0,94</td><td>0,86</td><td>0,93</td><td>0,84</td></tr><tr><td>Sulutgo</td><td>0,67</td><td>0,90</td><td>0,78</td><td>0,73</td><td>0,78</td><td>0,72</td></tr></tbody></table></div>
+          <span class="small-note">OM = operating margin, BM = build margin, CM = combined margin. Kolom 0,5/0,5 berlaku untuk semua kegiatan mitigasi kecuali PLTB dan PLTS; kolom 0,75/0,25 khusus PLTB dan PLTS. Kalkulator memakai 0,95 (Sulselbar, CM 0,5/0,5).</span></div></div>
+        <div class="col-md-5 reveal"><div class="info-box"><b>2. Transportasi (kg CO₂e per km)</b>
+          <span>UK Government GHG Conversion Factors for Company Reporting 2026 (DESNZ/DEFRA, terbit 11 Juni 2026), tab Passenger vehicles. Ini emisi pembakaran bensin di Inggris, dipakai sebagai pendekatan untuk Indonesia.</span>
+          <div class="table-wrap"><table class="data-table"><thead><tr><th>Kendaraan</th><th>kg CO₂e/km</th><th>Bahan bakar</th></tr></thead><tbody><tr><td>Motor kecil (small)</td><td>0,08319</td><td>bensin</td></tr><tr><td>Motor sedang (medium)</td><td>0,10107</td><td>bensin</td></tr><tr><td>Motor rata-rata (average)</td><td>0,11367</td><td>bensin</td></tr><tr><td>Mobil rata-rata (average car)</td><td>0,16152</td><td>bensin</td></tr></tbody></table></div></div></div>
+        <div class="col-md-7 reveal d1"><div class="info-box"><b>3. Makanan (kg CO₂e per kg produk)</b>
+          <span>Poore &amp; Nemecek (2018), <i>Science</i> 360(6392): 987–992, meta-analisis 38.700 peternakan/lahan di 119 negara, disajikan Our World in Data (CC BY). Nilai adalah rata-rata global.</span>
+          <div class="table-wrap"><table class="data-table"><thead><tr><th>Produk</th><th>kg CO₂e/kg</th><th>Kategori</th></tr></thead><tbody><tr><td>Daging sapi (peternakan sapi potong)</td><td>99,48</td><td>daging</td></tr><tr><td>Daging domba/kambing</td><td>39,72</td><td>daging</td></tr><tr><td>Daging sapi (sapi perah)</td><td>33,3</td><td>daging</td></tr><tr><td>Udang budidaya</td><td>26,87</td><td>laut</td></tr><tr><td>Keju</td><td>23,88</td><td>susu</td></tr><tr><td>Daging babi</td><td>12,31</td><td>daging</td></tr><tr><td>Daging ayam</td><td>9,87</td><td>daging</td></tr><tr><td>Telur</td><td>4,67</td><td>telur</td></tr><tr><td>Beras</td><td>4,45</td><td>serealia</td></tr><tr><td>Tahu</td><td>3,16</td><td>nabati</td></tr><tr><td>Susu</td><td>3,15</td><td>susu</td></tr><tr><td>Tomat</td><td>2,09</td><td>sayur</td></tr><tr><td>Jagung</td><td>1,7</td><td>serealia</td></tr><tr><td>Gandum dan rye</td><td>1,57</td><td>serealia</td></tr><tr><td>Kacang polong</td><td>0,98</td><td>nabati</td></tr><tr><td>Pisang</td><td>0,86</td><td>buah</td></tr><tr><td>Kacang pohon (nuts)</td><td>0,43</td><td>nabati</td></tr></tbody></table></div>
+          <span class="small-note">Nilai kacang pohon dari penjumlahan seluruh tahap rantai pasok dataset tahun 2018; nilai lainnya dari dataset tahun 2010.</span></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Bank sampah Makassar: harga, peta, dan informasi -->
+<section id="banksampah">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Katalog &amp; Peta Bank Sampah</span>
+      <h2>Sampah Terpilah Punya Nilai</h2>
+      <p>Setorkan sampah terpilah ke Bank Sampah Unit terdekat di Makassar dan ubah jadi tabungan.</p>
+    </div>
+
+    <div class="row row-eq">
+      <div class="col-sm-6 col-md-4 reveal"><div class="prod">
+        <div class="pic" style="--bg:#E3F1E7">🌱<span>Organik Premium</span></div>
+        <div class="info"><h5>Kasgot (Olahan Maggot)</h5><div class="price">Rp8.000 <small>/ kg</small></div><p>Hasil olahan budidaya maggot.</p></div></div></div>
+      <div class="col-sm-6 col-md-4 reveal d1"><div class="prod">
+        <div class="pic" style="--bg:#FBE9C2">🛢️<span>Limbah Cair</span></div>
+        <div class="info"><h5>Minyak Jelantah</h5><div class="price">Rp6.500 <small>/ kg</small></div><p>Dibeli Bank Sampah Pusat Makassar.</p></div></div></div>
+      <div class="col-sm-6 col-md-4 reveal d2"><div class="prod">
+        <div class="pic" style="--bg:#DCE9F5">🧴<span>Anorganik PET</span></div>
+        <div class="info"><h5>Botol Plastik Terpilah</h5><div class="price">Rp2.500 <small>/ kg</small></div><p>Terpilah, tanpa tutup dan label.</p></div></div></div>
+      <div class="col-sm-6 col-md-4 reveal d3"><div class="prod">
+        <div class="pic" style="--bg:#EFE0CB">🪴<span>Organik Olahan</span></div>
+        <div class="info"><h5>Kompos Kering</h5><div class="price">Rp1.000 <small>/ kg</small></div><p>Hasil olahan sampah organik.</p></div></div></div>
+
+      <div class="col-sm-6 col-md-4 reveal"><div class="prod">
+        <div class="pic" style="--bg:#EFE0CB">🌾<span>Organik Olahan</span></div>
+        <div class="info"><h5>Kompos Basah</h5><div class="price">Rp500 <small>/ kg</small></div><p>Hasil olahan sampah organik.</p></div></div></div>
+      <div class="col-sm-6 col-md-4 reveal d1"><div class="prod">
+        <div class="pic" style="--bg:#DCE9F5">🧴<span>Anorganik PET</span></div>
+        <div class="info"><h5>Botol Plastik Tercampur</h5><div class="price">Rp1.500 <small>/ kg</small></div><p>Belum terpilah; harga lebih rendah dari botol terpilah.</p></div></div></div>
+    </div>
+    <p class="price-note">Harga olahan organik dan jelantah: Bank Sampah Pusat Makassar, 6 Juli 2026. Contoh harga botol plastik:. Harga sampah anorganik bervariasi menurut jenis dan kualitas pilahan; BSU menyesuaikan kondisi sampah.</p>
+
+    <div class="row row-eq" style="margin-top:48px">
+      <div class="col-md-7 reveal">
+        <div class="map-wrap">
+          <iframe id="map" title="Peta Bank Sampah Makassar" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Bank+Sampah+Makassar&amp;z=12&amp;output=embed"></iframe>
+        </div>
+      </div>
+      <div class="col-md-5 reveal d1">
+        <div class="loc-box">
+          <h4>Informasi &amp; Lokasi BSU</h4>
+          <div class="count-row">
+            <div><b><span data-count="171" data-dec="0">171</span></b><span>Bank Sampah Unit (BSU)</span></div>
+            <div><b><span data-count="13" data-dec="0">13</span></b><span>TPS3R tercatat</span></div>
+          </div>
+          <ul class="loc-list">
+            <li><span class="ic">🌐</span><span>Portal resmi: <a href="https://banksampah.makassarkota.go.id" target="_blank" rel="noopener">banksampah.makassarkota.go.id</a></span></li>
+            <li><span class="ic">📍</span><span><b>DLH Kota Makassar</b><br>Jl. Urip Sumoharjo No. 8, Makassar 90232</span></li>
+            <li><span class="ic">💬</span><span>WhatsApp Center: <a href="https://wa.me/6281141100777" target="_blank" rel="noopener">0811-4110-0777</a></span></li>
+            <li><span class="ic">🕗</span><span>Senin–Jumat, 08.00–16.00 WITA</span></li>
+          </ul>
+          <button type="button" class="btn-gl btn-lime" id="btn-locate" style="width:100%;justify-content:center">📡 Cari Bank Sampah Terdekat dari Lokasi Saya</button>
+          <div id="loc-msg" style="font-size:13px;color:#BFDCCB;margin-top:10px;min-height:20px"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-eq" style="margin-top:40px">
+      <div class="col-md-6 reveal"><div class="info-box"><b>Apa itu bank sampah?</b><span>Fasilitas pengelolaan sampah berprinsip 3R, sarana edukasi dan perubahan perilaku, serta pelaksanaan ekonomi sirkular, yang dibentuk dan dikelola masyarakat, badan usaha, dan/atau pemerintah daerah (Permen LHK 14/2021 Pasal 1 angka 6).</span></div></div>
+      <div class="col-md-6 reveal d1"><div class="info-box"><b>Data Bank Sampah Pusat Makassar</b><span>Sekitar 46 jenis sampah dibeli (UPT Bank Sampah Makassar). Pendapatan Rp367 juta (2025) menjadi Rp903,95 juta sampai Juli 2026 (naik sekitar 146%); target 2026 Rp2,5 miliar, dari penjualan sampah anorganik. Portal DLH (2 Oktober 2026) mencatat 171 BSU dan 13 TPS3R; jumlah BSU di media berbeda-beda (sekitar 400–700), sehingga portal dijadikan acuan.</span></div></div>
+    </div>
+
+    <ol class="flow reveal">
+      <li>Pilah sampah di rumah</li>
+      <li>Setor ke Bank Sampah Unit</li>
+      <li>Ditimbang &amp; dicatat di buku tabungan</li>
+      <li>BSU setor ke Bank Sampah Pusat / pengepul</li>
+      <li>Saldo bisa ditarik jadi uang</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Dasar hukum dan SDGs -->
+<section id="kebijakan" class="on-dark">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Dasar Kebijakan &amp; Komitmen SDGs</span>
+      <h2>Berpijak pada Hukum dan Ilmu</h2>
+      <p>Landasan hukum nasional dan komitmen global yang menjadi rujukan GreenLife.</p>
+    </div>
+    <div class="row row-eq">
+      <div class="col-md-4 reveal"><div class="law">
+        <span class="sub">Dasar Hukum Nasional</span>
+        <h4>UU No. 18 Tahun 2008 tentang Pengelolaan Sampah</h4>
+        <div class="pasal" style="margin-top:20px"><b>Pasal 19</b><span>Pengelolaan sampah rumah tangga terdiri atas pengurangan dan penanganan.</span></div>
+        <div class="pasal"><b>Pasal 20</b><span>Pengurangan sampah meliputi pembatasan timbulan, pendauran ulang, dan pemanfaatan kembali (dasar hukum 3R).</span></div>
+        <div class="pasal"><b>Pasal 22</b><span>Penanganan meliputi pemilahan, pengumpulan, pengangkutan, pengolahan, hingga pemrosesan akhir.</span></div>
+      </div></div>
+      <div class="col-md-4 reveal d1"><div class="sdg" style="--c:#BF8B2E">
+        <div class="hd"><span class="no">12</span><h4>Konsumsi dan Produksi yang Bertanggung Jawab</h4></div>
+        <ul>
+          <li><b>12.3</b><span>Pada 2030, mengurangi separuh sisa makanan per kapita global di tingkat ritel dan konsumen, serta mengurangi kehilangan pangan di rantai produksi dan pasok, termasuk kehilangan pascapanen.</span></li>
+          <li><b>12.5</b><span>Pada 2030, mengurangi timbulan sampah secara substansial melalui pencegahan, pengurangan, daur ulang, dan penggunaan kembali.</span></li>
+          <li><b>12.8</b><span>Pada 2030, memastikan semua orang memiliki informasi dan kesadaran tentang pembangunan berkelanjutan dan gaya hidup yang selaras dengan alam.</span></li>
+        </ul></div></div>
+      <div class="col-md-4 reveal d2"><div class="sdg" style="--c:#3F7E44">
+        <div class="hd"><span class="no">13</span><h4>Penanganan Perubahan Iklim</h4></div>
+        <ul>
+          <li><b>13.2</b><span>Mengintegrasikan tindakan perubahan iklim ke dalam kebijakan, strategi, dan perencanaan nasional.</span></li>
+          <li><b>13.3</b><span>Meningkatkan pendidikan, kesadaran, dan kapasitas tentang mitigasi, adaptasi, pengurangan dampak, dan peringatan dini perubahan iklim.</span></li>
+        </ul></div></div>
+    </div>
+    <div class="green-badge reveal"><div class="seal">✓</div><div><b>Komitmen anti-<i>greenwashing</i>.</b> Angka data dilengkapi nomor sumber pada daftar referensi. Angka dari media atau hasil hitung sendiri dinyatakan demikian, dan hasil kalkulator adalah perkiraan edukatif.</div></div>
+  </div>
+</section>
+
+<!-- Data perilaku mahasiswa -->
+<section id="realita">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Realita Perilaku Mahasiswa</span>
+      <h2>Kita Tahu, Tapi Belum Selalu Bertindak</h2>
+    </div>
+    <div class="callout reveal">
+      <div class="row">
+        <div class="col-sm-4 stat-s"><b><span data-count="83" data-dec="0">83</span>%</b><span>mahasiswa Universitas Negeri Gorontalo (n=215) masih memakai plastik sekali pakai</span><em>padahal 95% mendukung kampus hijau</em></div>
+        <div class="col-sm-4 stat-s"><b><span data-count="86.4" data-dec="1">86,4</span>%</b><span>mahasiswa Universitas YARSI (n=198) bersikap kurang terhadap pengelolaan sampah</span><em>padahal 66,2% berpengetahuan baik</em></div>
+        <div class="col-sm-4 stat-s"><b><span data-count="63" data-dec="0">63</span>%</b><span>pemuda Kecamatan Sinjai Utara, Sulawesi Selatan, belum memilah sampah rumah tangga</span><em>survei 150 responden</em></div>
+      </div>
+      <div class="row row-eq" style="margin-top:28px">
+        <div class="col-md-6"><div class="study"><h5>Universitas Negeri Gorontalo (n=215)</h5>
+          <small>Kartika, Dotutinggi, dan Kamuli, <i>Jurnal Pendidikan IPS</i> 16(3), 2026</small>
+          <ul><li>Dukungan kampus hijau 95%: 98% mendukung kebijakan pengurangan plastik sekali pakai dan 96% mendukung tempat sampah terpilah.</li>
+          <li>Pengelolaan sampah 85%, tetapi penggunaan plastik sekali pakai masih 83% dan kebiasaan membawa perlengkapan ramah lingkungan hanya 57%.</li></ul>
+          <div class="table-wrap"><table class="data-table"><thead><tr><th>Fakultas</th><th>Bawa tumbler</th><th>Memilah sampah</th><th>Masih pakai botol sekali pakai</th></tr></thead><tbody>
+          <tr><td>Kedokteran</td><td>76,9%</td><td>59,6%</td><td>57,7%</td></tr>
+          <tr><td>Pertanian</td><td>66,0%</td><td>60,0%</td><td>72,0%</td></tr>
+          <tr><td>Kelautan dan Perikanan</td><td>65,6%</td><td>70,5%</td><td>85,2%</td></tr>
+          <tr><td>MIPA</td><td>48,0%</td><td>38,0%</td><td>74,0%</td></tr></tbody></table></div></div></div>
+        <div class="col-md-6"><div class="study"><h5>Universitas YARSI (n=198)</h5>
+          <small><i>Syntax Idea</i> 6(12), 2024, kuesioner online</small>
+          <ul><li>Pengetahuan baik 66,2%, tetapi sikap terhadap pengelolaan sampah masih kurang 86,4%.</li>
+          <li>Sikap, usia, dan sumber informasi berhubungan signifikan dengan perilaku; pengetahuan tidak.</li></ul>
+          <h5 style="margin-top:22px">Universitas HKBP Nommensen (30 responden)</h5>
+          <small>Sirait dkk., <i>Jurnal Nuansa Akademik</i> 10(1), Juni 2025</small>
+          <ul><li>100% tahu dampak negatif sampah plastik; 91,7% menilai pengendaliannya sangat penting (8,3% penting).</li>
+          <li>Hanya 41,7% tahu program pengendalian di kampus. Efektivitas program: cukup efektif 37,5%, kurang efektif 37,5%; sarana memadai 58,3%.</li>
+          <li>Selalu memakai tumbler 50% (sering 16,7%, jarang 29,2%); selalu membuang sampah makanan pada tempatnya 45,8% (sering 41,7%, jarang 12,5%).</li>
+          <li>Responden dipilih dari mahasiswa aktif yang peduli lingkungan, sehingga hasilnya tidak mewakili seluruh mahasiswa.</li></ul></div></div>
+        <div class="col-md-12"><div class="study"><h5>Data Sulawesi Selatan: pemuda Kecamatan Sinjai Utara, Kabupaten Sinjai</h5>
+          <small>Tesis Pascasarjana Universitas Hasanuddin (2020), Abdul Waris; usia 16–30 tahun, 150 kuesioner Google Form, purposive dan snowball sampling</small>
+          <ul><li>Sekitar 63% belum memilah sampah rumah tangga (34% memilah dua jenis, 3% memilah tiga jenis).</li>
+          <li>64% belum memanfaatkan sampah (29% memanfaatkan sampah organik atau non-organik, 6% keduanya, 1% termasuk B3).</li></ul></div></div>
+      </div>
+      <p class="quote">“Mahasiswa umumnya paham bahaya sampah plastik, tetapi kebiasaan belum selalu mengikuti. Studi pada mahasiswa Universitas Negeri Gorontalo (n=215) mencatat dukungan kampus hijau 95%, namun 83% masih memakai plastik sekali pakai. Studi di Universitas YARSI (n=198) menemukan 66,2% berpengetahuan baik, tetapi 86,4% bersikap kurang. Di Sulawesi Selatan, survei pada pemuda Kecamatan Sinjai Utara, Kabupaten Sinjai, menemukan sekitar 63% tidak memilah sampah. <b>GreenLife hadir untuk menjembatani kesenjangan antara tahu dan bertindak.</b>”</p>
+      <p class="foot">Keempat studi adalah survei deskriptif dengan responden yang dipilih secara purposive (studi Sinjai Utara juga snowball), sehingga hasilnya menggambarkan kelompok yang disurvei dan tidak mewakili seluruh mahasiswa atau pemuda. Sumber: Kartika dkk., <i>Jurnal Pendidikan IPS</i> 16(3), 2026; <i>Syntax Idea</i> 6(12), 2024; tesis Pascasarjana Universitas Hasanuddin (2020).</p>
+    </div>
+  </div>
+</section>
+
+<!-- Tentang kami, tim, dan referensi -->
+<section id="tentang">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="chip">Tentang Kami</span>
+      <h2>Mengubah Pengetahuan Menjadi Kebiasaan</h2>
+      <p>GreenLife dirancang sebagai tugas kelompok mata kuliah Rancangan Web — menggabungkan data, edukasi, dan alat interaktif dalam satu platform.</p>
+    </div>
+    <div class="row row-eq">
+      <div class="col-md-4 reveal"><div class="pillar"><div class="ico">📊</div><h4>Pantau</h4><p>Pahami data sampah, emisi, dan iklim dari sumber resmi, lalu hitung jejak karbon pribadi lewat Eco Calculator.</p></div></div>
+      <div class="col-md-4 reveal d1"><div class="pillar"><div class="ico">♻️</div><h4>Kelola</h4><p>Terapkan 3R/5R, pilah sampah dari rumah, dan temukan Bank Sampah Unit terdekat di Makassar.</p></div></div>
+      <div class="col-md-4 reveal d2"><div class="pillar"><div class="ico">🌿</div><h4>Bangun Kebiasaan</h4><p>Jembatani kesenjangan antara tahu dan bertindak dengan langkah kecil yang konsisten setiap hari.</p></div></div>
+    </div>
+
+    <h3 class="sub-title reveal" style="text-align:center;margin:56px 0 24px">Tim Kelompok</h3>
+    <div class="row">
+            <div class="col-xs-6 col-md-3 reveal" style="margin-bottom:20px"><div class="member"><div class="av">U</div><h5>Ulfa Rabilka Saputri</h5><span>Anggota Kelompok</span></div></div>
+      <div class="col-xs-6 col-md-3 reveal d1" style="margin-bottom:20px"><div class="member"><div class="av">A</div><h5>Anelchrist Flora Sonda</h5><span>Anggota Kelompok</span></div></div>
+      <div class="col-xs-6 col-md-3 reveal d2" style="margin-bottom:20px"><div class="member"><div class="av">F</div><h5>Fatimah Azzahra</h5><span>Anggota Kelompok</span></div></div>
+      <div class="col-xs-6 col-md-3 reveal d3" style="margin-bottom:20px"><div class="member"><div class="av">T</div><h5>Tiara Erwin</h5><span>Anggota Kelompok</span></div></div>
+    </div>
+
+    <div class="src-panel reveal" style="margin-top:44px">
+      <div class="panel-group" id="sumber" role="tablist">
+        <div class="panel">
+          <div class="panel-heading" role="tab"><h4 class="panel-title" style="margin:0"><a role="button" data-toggle="collapse" data-parent="#sumber" href="#sumber-list" aria-expanded="false">📚 Sumber Data &amp; Referensi (68 sumber, klik untuk membuka)</a></h4></div>
+          <div id="sumber-list" class="panel-collapse collapse" role="tabpanel"><div class="panel-body"><h5>Sumber Poin 1–7</h5><ol class="src-list">
+<li id="s1" value="1">KLH/BPLH. (2025). Sistem Informasi Pengelolaan Sampah Nasional (SIPSN): Capaian Kinerja Pengelolaan Sampah (data input 278 kabupaten/kota, tahun 2025). Diakses 1 Oktober 2026. <a href="https://sipsn.menlhk.go.id/sipsn/" target="_blank" rel="noopener">https://sipsn.menlhk.go.id/sipsn/</a></li>
+<li id="s2" value="2">KLH. (2026). Portal SIPSN "Satu Data Menuju Indonesia Asri" (statistik 514 kabupaten/kota). Diakses 1 Oktober 2026. <a href="https://portal-sipsn.kemenlh.go.id/" target="_blank" rel="noopener">https://portal-sipsn.kemenlh.go.id/</a></li>
+<li id="s3" value="3">KLH/BPLH. SIPSN: Komposisi Sampah (tabel per provinsi dan kabupaten/kota). Diakses 1 Oktober 2026. <a href="https://sipsn.menlhk.go.id/sipsn/public/data/komposisi" target="_blank" rel="noopener">https://sipsn.menlhk.go.id/sipsn/public/data/komposisi</a></li>
+<li id="s4" value="4">Kompas.com. (26 Februari 2026). Perlu Strategi Terpadu Atasi 65 Persen Sampah Nasional yang Belum Terkelola. <a href="https://lestari.kompas.com/read/2026/02/26/150034186/perlu-strategi-terpadu-atasi-65-persen-sampah-nasional-yang-belum-terkelola" target="_blank" rel="noopener">https://lestari.kompas.com/read/2026/02/26/150034186/perlu-strategi-terpadu-atasi-65-persen-sampah-nasional-yang-belum-terkelola</a></li>
+<li id="s5" value="5">Kementerian Pekerjaan Umum, Satu Data PU. (2025). TPA dalam Angka: Jejak Progres Pengelolaan Sampah Indonesia (data SIPSN 2024, 321 kabupaten/kota). <a href="https://data.pu.go.id/stories/tpa-dalam-angka-jejak-progres-pengelolaan-sampah-indonesia-0" target="_blank" rel="noopener">https://data.pu.go.id/stories/tpa-dalam-angka-jejak-progres-pengelolaan-sampah-indonesia-0</a></li>
+<li id="s6" value="6">Tempo. Penanganan Sampah di Indonesia (data SIPSN 2024 dan 2019). <a href="https://www.tempo.co/data/data/penanganan-sampah-di-indonesia-1210880" target="_blank" rel="noopener">https://www.tempo.co/data/data/penanganan-sampah-di-indonesia-1210880</a></li>
+<li id="s7" value="7">KLH/BPLH. (5 Desember 2025). Siaran Pers SR.321/HUMAS/KLH-BPLH/11/2025: Kawasan Bersih, Ekonomi Berputar. <a href="https://kemenlh.go.id/news/detail/kawasan-bersih-ekonomi-berputar-klhbplh-terapkan-standar-pengelolaan-sampah-kawaan-dorong-ekonomi-sirkular-dan-kolaborasi" target="_blank" rel="noopener">https://kemenlh.go.id/news/detail/kawasan-bersih-ekonomi-berputar-klhbplh-terapkan-standar-pengelolaan-sampah-kawaan-dorong-ekonomi-sirkular-dan-kolaborasi</a></li>
+<li id="s8" value="8">KLHK, Ditjen PSLB3. Implementasi Permenhut P.75/2019 dan target Perpres 97/2017 serta Perpres 83/2018 (Info 3R). <a href="https://info3r.menlhk.go.id/berita/detail/berita-35-v_berita" target="_blank" rel="noopener">https://info3r.menlhk.go.id/berita/detail/berita-35-v_berita</a></li>
+<li id="s9" value="9">GoodStats. Komposisi Sampah Nasional 2025, Didominasi Sisa Makanan (data SIPSN). <a href="https://data.goodstats.id/statistic/komposisi-sampah-nasional-2025-didominasi-sisa-makanan-pgp9R" target="_blank" rel="noopener">https://data.goodstats.id/statistic/komposisi-sampah-nasional-2025-didominasi-sisa-makanan-pgp9R</a></li>
+<li id="s10" value="10">GoodStats. 39% Sampah Indonesia adalah Sisa Makanan (komposisi 2024, data SIPSN). <a href="https://data.goodstats.id/statistic/39-sampah-indonesia-adalah-sisa-makanan-r1vK4" target="_blank" rel="noopener">https://data.goodstats.id/statistic/39-sampah-indonesia-adalah-sisa-makanan-r1vK4</a></li>
+<li id="s11" value="11">GoodStats. Asal dan Jenis Sampah Terbanyak di Indonesia (data SIPSN). <a href="https://goodstats.id/article/asal-dan-jenis-sampah-terbanyak-di-indonesia-A9ouY" target="_blank" rel="noopener">https://goodstats.id/article/asal-dan-jenis-sampah-terbanyak-di-indonesia-A9ouY</a></li>
+<li id="s12" value="12">WALHI. Kertas Posisi: Pembangkit Listrik Tenaga Sampah (PSEL) sebagai PSN (mengutip SIPSN 2024 dan 2025). <a href="https://walhi.or.id/uploads/WALHI%202025-2029/Dokumen/Kertas%20Posisi%20PSEL.pdf" target="_blank" rel="noopener">https://walhi.or.id/uploads/WALHI%202025-2029/Dokumen/Kertas%20Posisi%20PSEL.pdf</a></li>
+<li id="s13" value="13">World Bank. (2021). Plastic Waste Discharges from Rivers and Coastlines in Indonesia. Marine Plastics Series, East Asia and Pacific Region. <a href="https://www.worldbank.org/en/country/indonesia/publication/plastic-waste-discharges-from-rivers-and-coastlines-in-indonesia" target="_blank" rel="noopener">https://www.worldbank.org/en/country/indonesia/publication/plastic-waste-discharges-from-rivers-and-coastlines-in-indonesia</a></li>
+<li id="s14" value="14">Nicholas Institute, Duke University (didanai UNDP Ocean Innovation). Plastic Pollution Policy Country Profile: Indonesia. <a href="https://nicholasinstitute.duke.edu/sites/default/files/projects/Plastic-Pollution-Policy-Country-Profile-Indonesia.pdf" target="_blank" rel="noopener">https://nicholasinstitute.duke.edu/sites/default/files/projects/Plastic-Pollution-Policy-Country-Profile-Indonesia.pdf</a></li>
+<li id="s15" value="15">JawaPos.com. (9 November 2025). BRIN ungkap sampah plastik Indonesia yang masuk ke laut capai 650 ribu ton per tahun. <a href="https://www.jawapos.com/nasional/2511090275/brin-ungkap-sampah-plastik-indonesia-yang-masuk-ke-laut-capai-650-ribu-ton-per-tahun" target="_blank" rel="noopener">https://www.jawapos.com/nasional/2511090275/brin-ungkap-sampah-plastik-indonesia-yang-masuk-ke-laut-capai-650-ribu-ton-per-tahun</a></li>
+<li id="s16" value="16">USAID SELARAS. (2024). Fact Sheet: Reducing Land-Based Sources of Ocean Plastic Pollution. <a href="https://www.usaid.gov/sites/default/files/2024-04/USAID%20SELARAS_Fact%20Sheet%202024_0.pdf" target="_blank" rel="noopener">https://www.usaid.gov/sites/default/files/2024-04/USAID%20SELARAS_Fact%20Sheet%202024_0.pdf</a></li>
+<li id="s17" value="17">Good News from Indonesia. (11 Juli 2025). Seabin, Tempat Sampah Pembersih Plastik di Laut (mengutip situs KLHK dan UNEP). <a href="https://www.goodnewsfromindonesia.id/2025/07/11/seabin-tempat-sampah-pembersih-plastik-di-laut" target="_blank" rel="noopener">https://www.goodnewsfromindonesia.id/2025/07/11/seabin-tempat-sampah-pembersih-plastik-di-laut</a></li>
+<li id="s18" value="18">Beritajatim.com. Botol plastik butuh 450 tahun untuk terurai (mengutip Direktorat Pengelolaan Sampah KLHK). <a href="https://beritajatim.com/?p=697314" target="_blank" rel="noopener">https://beritajatim.com/?p=697314</a></li>
+<li id="s19" value="19">BMKG. (2026). Anomali Suhu Udara Rata-Rata Tahun 2025. <a href="https://www.bmkg.go.id/iklim/anomali-suhu-udara/anomali-suhu-udara-rata-rata-tahun-2025" target="_blank" rel="noopener">https://www.bmkg.go.id/iklim/anomali-suhu-udara/anomali-suhu-udara-rata-rata-tahun-2025</a></li>
+<li id="s20" value="20">IPCC. (2023). Climate Change 2023: Synthesis Report. Summary for Policymakers. Geneva: IPCC. <a href="https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/" target="_blank" rel="noopener">https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/</a></li>
+<li id="s21" value="21">KLH. Laporan Inventarisasi GRK dan MPV Tahun 2024 (tingkat emisi GRK nasional tahun 2023). <a href="https://kemenlh.go.id/dashboard/public/storage/reports/izH4Jz57sTGzXaTLSEgoyfUsQD8SHQCUwjTj7NHd.pdf" target="_blank" rel="noopener">https://kemenlh.go.id/dashboard/public/storage/reports/izH4Jz57sTGzXaTLSEgoyfUsQD8SHQCUwjTj7NHd.pdf</a></li>
+<li id="s22" value="22">Medcom.id. (5 Desember 2023). 5 Langkah Indonesia Capai Nol Sampah dan Emisi pada 2050 (pernyataan Dirjen PSLB3 KLHK). <a href="https://www.medcom.id/ekonomi/sustainability/lKY8XZVk-5-langkah-indonesia-capai-nol-sampah-dan-emisi-pada-2050" target="_blank" rel="noopener">https://www.medcom.id/ekonomi/sustainability/lKY8XZVk-5-langkah-indonesia-capai-nol-sampah-dan-emisi-pada-2050</a></li>
+<li id="s23" value="23">Kompas.com. (15 Juni 2024). Indonesia Kejar "Net Zero Emission" Sampah pada Tahun 2050. <a href="https://lestari.kompas.com/read/2024/06/15/112149686/indonesia-kejar-net-zero-emission-sampah-pada-tahun-2050?page=all" target="_blank" rel="noopener">https://lestari.kompas.com/read/2024/06/15/112149686/indonesia-kejar-net-zero-emission-sampah-pada-tahun-2050?page=all</a></li>
+<li id="s24" value="24">Jurnal GeoScienceEdu, Universitas Mataram. Timbunan Sampah Organik dan Potensi Emisi Metana di Nusa Tenggara Barat. <a href="https://jpfis.unram.ac.id/index.php/GeoScienceEdu/article/download/2036/1347/11788" target="_blank" rel="noopener">https://jpfis.unram.ac.id/index.php/GeoScienceEdu/article/download/2036/1347/11788</a></li>
+<li id="s25" value="25">WHO. Compendium of WHO and other UN guidance on health and environment: Solid waste. <a href="https://www.who.int/tools/compendium-on-health-and-environment/solid-waste" target="_blank" rel="noopener">https://www.who.int/tools/compendium-on-health-and-environment/solid-waste</a></li>
+<li id="s26" value="26">Krystosik, A., et al. (2020). Solid wastes provide breeding sites, burrows, and food for biological disease vectors, and urban zoonotic reservoirs. Frontiers in Public Health, 7:405. <a href="https://www.frontiersin.org/articles/10.3389/fpubh.2019.00405/full" target="_blank" rel="noopener">https://www.frontiersin.org/articles/10.3389/fpubh.2019.00405/full</a></li>
+<li id="s27" value="27">TIMES Indonesia. (25 November 2025). Sepanjang 2025, Indonesia Alami 2.919 Bencana (data BNPB). <a href="https://timesindonesia.co.id/read/news/566573/sepanjang-2025-indonesia-alami-2919-bencana-bnpb-ungkap-hampir-99-hidrometeorologi" target="_blank" rel="noopener">https://timesindonesia.co.id/read/news/566573/sepanjang-2025-indonesia-alami-2919-bencana-bnpb-ungkap-hampir-99-hidrometeorologi</a></li>
+<li id="s28" value="28">Databoks Katadata. (28 November 2025). Indonesian Provinces Most Frequently Hit by Floods Until End of 2025 (data BNPB). <a href="https://databoks.katadata.co.id/en/environment/statistics/69294bca4a532/indonesian-provinces-most-frequently-hit-by-floods-until-end-of-2025" target="_blank" rel="noopener">https://databoks.katadata.co.id/en/environment/statistics/69294bca4a532/indonesian-provinces-most-frequently-hit-by-floods-until-end-of-2025</a></li>
+<li id="s29" value="29">Bisnis.com. (29 Februari 2020). Sering Banjir, BNPB Minta Warga Galakkan Kerja Bakti. <a href="https://kabar24.bisnis.com/read/20200229/15/1207376/sering-banjir-bnbp-minta-warga-galakkan-kerja-bakti" target="_blank" rel="noopener">https://kabar24.bisnis.com/read/20200229/15/1207376/sering-banjir-bnbp-minta-warga-galakkan-kerja-bakti</a></li>
+<li id="s30" value="30">Bisnis.com. (10 Juni 2021). Limbah Makanan di Indonesia Sebabkan Kerugian Ekonomi Rp551 Triliun per Tahun (kajian Kementerian PPN/Bappenas). <a href="https://ekonomi.bisnis.com/read/20210610/9/1403752/limbah-makanan-di-indonesia-sebabkan-kerugian-ekonomi-rp551-triliun-per-tahun" target="_blank" rel="noopener">https://ekonomi.bisnis.com/read/20210610/9/1403752/limbah-makanan-di-indonesia-sebabkan-kerugian-ekonomi-rp551-triliun-per-tahun</a></li>
+<li id="s31" value="31">Investortrust.id. (3 Juli 2024). Suharso: Sampah Makanan Berpotensi Rugikan Rp 551 Triliun. <a href="https://investortrust.id/macro/32252/suharso-sampah-makanan-berpotensi-rugikan-rp-551-triliun" target="_blank" rel="noopener">https://investortrust.id/macro/32252/suharso-sampah-makanan-berpotensi-rugikan-rp-551-triliun</a></li>
+<li id="s32" value="32">CNBC Indonesia. (5 Juli 2024). Makanan Terbuang Rp 550 T/Tahun, Cukup Buat Makan 125 Juta Orang RI. <a href="https://www.cnbcindonesia.com/news/20240705102111-4-552013/makanan-terbuang-rp-550-t-tahun-cukup-buat-makan-125-juta-orang-ri" target="_blank" rel="noopener">https://www.cnbcindonesia.com/news/20240705102111-4-552013/makanan-terbuang-rp-550-t-tahun-cukup-buat-makan-125-juta-orang-ri</a></li>
+<li id="s33" value="33">Republik Indonesia. Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah, Pasal 20. <a href="https://pasal.id/peraturan/uu/uu-no-18-tahun-2008/pasal-20" target="_blank" rel="noopener">https://pasal.id/peraturan/uu/uu-no-18-tahun-2008/pasal-20</a></li>
+<li id="s34" value="34">Republik Indonesia. Peraturan Pemerintah Nomor 81 Tahun 2012 tentang Pengelolaan Sampah Rumah Tangga dan Sampah Sejenis Sampah Rumah Tangga. <a href="https://peraturan.go.id/files/pp81-2012pjl.pdf" target="_blank" rel="noopener">https://peraturan.go.id/files/pp81-2012pjl.pdf</a></li>
+<li id="s35" value="35">BPK Perwakilan Provinsi Sulawesi Selatan. (2023). Bank Sampah (ulasan UU 18/2008 Pasal 19-22). <a href="https://sulsel.bpk.go.id/wp-content/uploads/2023/01/Bank-Sampah.pdf" target="_blank" rel="noopener">https://sulsel.bpk.go.id/wp-content/uploads/2023/01/Bank-Sampah.pdf</a></li>
+<li id="s36" value="36">DLH Kota Balikpapan. Paparan Sosialisasi Perda 4/2022 tentang Pengelolaan Sampah (pemilahan organik, anorganik, B3, residu). <a href="https://jdih.balikpapan.go.id/jdih/common/dokumen/paparansosialisasiperda4tahun2022tentangpengelolaansrtdanssrtdlh.pdf" target="_blank" rel="noopener">https://jdih.balikpapan.go.id/jdih/common/dokumen/paparansosialisasiperda4tahun2022tentangpengelolaansrtdanssrtdlh.pdf</a></li>
+<li id="s37" value="37">Good News from Indonesia. (27 Februari 2023). Terapkan Habit Zero Waste (konsep 5R). <a href="https://www.goodnewsfromindonesia.id/2023/02/27/terapkan-habit-zero-waste" target="_blank" rel="noopener">https://www.goodnewsfromindonesia.id/2023/02/27/terapkan-habit-zero-waste</a></li>
+<li id="s38" value="38">ANTARA. Berikut lima tips kelola sampah. <a href="https://megapolitan.antaranews.com/berita/181829/berikut-lima-tips-kelola-sampah" target="_blank" rel="noopener">https://megapolitan.antaranews.com/berita/181829/berikut-lima-tips-kelola-sampah</a></li>
+<li id="s39" value="39">ANTARA Makassar. (2026). Memilah sampah, kebiasaan berubah. <a href="https://makassar.antaranews.com/berita/637583/memilah-sampah-kebiasaan-berubah" target="_blank" rel="noopener">https://makassar.antaranews.com/berita/637583/memilah-sampah-kebiasaan-berubah</a></li>
+<li id="s40" value="40">IDN Times Sulsel. (22 Juli 2026). Sampah Organik Dominasi 54 Persen Timbulan Sampah di Makassar. <a href="https://sulsel.idntimes.com/news/sulawesi-selatan/sampah-organik-dominasi-54-persen-timbulan-sampah-di-makassar-00-ghkwk-2w4d2s" target="_blank" rel="noopener">https://sulsel.idntimes.com/news/sulawesi-selatan/sampah-organik-dominasi-54-persen-timbulan-sampah-di-makassar-00-ghkwk-2w4d2s</a></li>
+<li id="s41" value="41">IDN Times Sulsel. Pembenahan TPA Tamangapa Capai 70 Persen, Siap Tinggalkan Open Dumping. <a href="https://sulsel.idntimes.com/news/sulawesi-selatan/pembenahan-tpa-tamangapa-capai-70-persen-siap-tinggalkan-open-dumping-00-ghkwk-536lpc" target="_blank" rel="noopener">https://sulsel.idntimes.com/news/sulawesi-selatan/pembenahan-tpa-tamangapa-capai-70-persen-siap-tinggalkan-open-dumping-00-ghkwk-536lpc</a></li>
+<li id="s42" value="42">Tribun Timur. (8 September 2026). Wajah Baru TPA Tamangapa Makassar, Sampah Ditutup Tanah Urug dan Gas Metana Dikelola. <a href="https://makassar.tribunnews.com/makassarmulia/1850926/wajah-baru-tpa-tamangapa-makassar-sampah-mulai-ditutup-tanah-urug-dan-gas-metana-dikelola" target="_blank" rel="noopener">https://makassar.tribunnews.com/makassarmulia/1850926/wajah-baru-tpa-tamangapa-makassar-sampah-mulai-ditutup-tanah-urug-dan-gas-metana-dikelola</a></li>
+<li id="s43" value="43">Mongabay Indonesia. (13 Maret 2023). Makassar dan Masalah Darurat Sampah. <a href="https://www.mongabay.co.id/2023/03/13/makassar-dan-masalah-darurat-sampah/" target="_blank" rel="noopener">https://www.mongabay.co.id/2023/03/13/makassar-dan-masalah-darurat-sampah/</a></li>
+<li id="s44" value="44">Bollo.id. (12 Oktober 2024). Sampah di Makassar Tiap Tahun Meningkat, Apa yang Keliru? (mengutip DLH Kota Makassar). <a href="https://www.bollo.id/ceritaan/wargabercerita/sampah-di-makassar-tiap-tahun-meningkat-apa-yang-keliru/" target="_blank" rel="noopener">https://www.bollo.id/ceritaan/wargabercerita/sampah-di-makassar-tiap-tahun-meningkat-apa-yang-keliru/</a></li>
+<li id="s45" value="45">Kilas Sulawesi. (24 April 2026). Pemprov Sulsel Perkuat Percepatan Pengelolaan Sampah, Sinergi Pusat dan Daerah Dipertegas. <a href="https://kilassulawesi.com/2026/04/pemprov-sulsel-perkuat-percepatan-pengelolaan-sampah-sinergi-pusat-dan-daerah-dipertegas/" target="_blank" rel="noopener">https://kilassulawesi.com/2026/04/pemprov-sulsel-perkuat-percepatan-pengelolaan-sampah-sinergi-pusat-dan-daerah-dipertegas/</a></li>
+<li id="s46" value="46">NEXT Indonesia Center. (23 Februari 2026). Pengelolaan Sampah Memburuk (analisis data SIPSN 2025). <a href="https://nextindonesia.id/Research/2026/02/23/233/Pengelolaan-Sampah-Memburuk" target="_blank" rel="noopener">https://nextindonesia.id/Research/2026/02/23/233/Pengelolaan-Sampah-Memburuk</a></li>
+</ol><h5>Sumber Poin 8–11</h5><ol class="src-list">
+<li id="s47" value="47">Kepmen ESDM 163.K/HK.02/MEM.S/2021 beserta lampiran (JDIH ESDM) — <a href="https://jdih.esdm.go.id/dokumen/view?id=2183" target="_blank" rel="noopener">https://jdih.esdm.go.id/dokumen/view?id=2183</a></li>
+<li id="s48" value="48">UK Government conversion factors (gov.uk) — <a href="https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting" target="_blank" rel="noopener">https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting</a></li>
+<li id="s49" value="49">UK Government, Conversion factors 2026: full set (Excel) — <a href="https://assets.publishing.service.gov.uk/media/6a29392bade52dc0882218a8/ghg-conversion-factors-2026-full-set.xlsx" target="_blank" rel="noopener">https://assets.publishing.service.gov.uk/media/6a29392bade52dc0882218a8/ghg-conversion-factors-2026-full-set.xlsx</a></li>
+<li id="s50" value="50">Our World in Data, Environmental Impacts of Food Production (Poore &amp; Nemecek 2018) — <a href="https://ourworldindata.org/environmental-impacts-of-food" target="_blank" rel="noopener">https://ourworldindata.org/environmental-impacts-of-food</a></li>
+<li id="s51" value="51">Our World in Data, Food Footprints (paket data) — <a href="https://ourworldindata.org/explorers/food-footprints" target="_blank" rel="noopener">https://ourworldindata.org/explorers/food-footprints</a></li>
+<li id="s52" value="52">Poore &amp; Nemecek 2018, Science — <a href="https://www.science.org/doi/10.1126/science.aaq0216" target="_blank" rel="noopener">https://www.science.org/doi/10.1126/science.aaq0216</a></li>
+<li id="s53" value="53">Makassar Bebas Sampah (DLH Makassar) — <a href="https://banksampah.makassarkota.go.id/index" target="_blank" rel="noopener">https://banksampah.makassarkota.go.id/index</a></li>
+<li id="s54" value="54">Permen LHK 14/2021 (JDIH Kemenko Infra) — <a href="https://jdih.kemenkoinfra.go.id/en/pengelolaan-sampah-pada-bank-sampah" target="_blank" rel="noopener">https://jdih.kemenkoinfra.go.id/en/pengelolaan-sampah-pada-bank-sampah</a></li>
+<li id="s55" value="55">Harga sampah dan bank sampah Makassar (Fajar, 21 Agu 2026) — <a href="https://fajar.co.id/2026/08/21/harga-sampah-di-makassar-bisa-capai-rp8-ribu-per-kg-ada-369-bank-sampah-yang-siap-menampung/" target="_blank" rel="noopener">https://fajar.co.id/2026/08/21/harga-sampah-di-makassar-bisa-capai-rp8-ribu-per-kg-ada-369-bank-sampah-yang-siap-menampung/</a></li>
+<li id="s56" value="56">Bank Sampah Pusat Makassar, daftar harga (Instagram, 6 Jul 2026) — <a href="https://www.instagram.com/banksampahpusat_makassar/" target="_blank" rel="noopener">https://www.instagram.com/banksampahpusat_makassar/</a></li>
+<li id="s57" value="57">Harga olahan sampah organik di Bank Sampah Pusat (Tribun Timur) — <a href="https://makassar.tribunnews.com/makassar/1842595/bank-sampah-pusat-makassar-kini-beli-hasil-olahan-sampah-organik" target="_blank" rel="noopener">https://makassar.tribunnews.com/makassar/1842595/bank-sampah-pusat-makassar-kini-beli-hasil-olahan-sampah-organik</a></li>
+<li id="s58" value="58">Contoh harga sampah anorganik (Rakyat Sulsel, 30 Jul 2026) — <a href="https://rakyatsulsel.fajar.co.id/2026/07/30/bank-sampah-sambut-positif-program-wajib-pilah-sampah/" target="_blank" rel="noopener">https://rakyatsulsel.fajar.co.id/2026/07/30/bank-sampah-sambut-positif-program-wajib-pilah-sampah/</a></li>
+<li id="s59" value="59">Pendapatan bank sampah Makassar (Tribun Timur, Agu 2026) — <a href="https://makassar.tribunnews.com/makassarmulia/1846526/pendapatan-bank-sampah-tembus-rp903-juta-pilah-sampah-ternyata-bisa-jadi-cuan" target="_blank" rel="noopener">https://makassar.tribunnews.com/makassarmulia/1846526/pendapatan-bank-sampah-tembus-rp903-juta-pilah-sampah-ternyata-bisa-jadi-cuan</a></li>
+<li id="s60" value="60">Bank sampah sektoral Panakkukang (ANTARA, Agu 2026) — <a href="https://makassar.antaranews.com/berita/635433/makassar-luncurkan-bank-sampah-sektoral" target="_blank" rel="noopener">https://makassar.antaranews.com/berita/635433/makassar-luncurkan-bank-sampah-sektoral</a></li>
+<li id="s61" value="61">Penjelasan PP 81/2012 (peraturan.go.id) — <a href="https://peraturan.go.id/files/pp81-2012pjl.pdf" target="_blank" rel="noopener">https://peraturan.go.id/files/pp81-2012pjl.pdf</a></li>
+<li id="s62" value="62">UU 18/2008 (Hukumonline) — <a href="https://www.hukumonline.com/klinik/a/aturan-pengelolaan-sampah-secara-nasional-lt57ecad1f56c03" target="_blank" rel="noopener">https://www.hukumonline.com/klinik/a/aturan-pengelolaan-sampah-secara-nasional-lt57ecad1f56c03</a></li>
+<li id="s63" value="63">SDG 12 (PBB) — <a href="https://sdgs.un.org/goals/goal12" target="_blank" rel="noopener">https://sdgs.un.org/goals/goal12</a></li>
+<li id="s64" value="64">SDG 13 (PBB) — <a href="https://sdgs.un.org/goals/goal13" target="_blank" rel="noopener">https://sdgs.un.org/goals/goal13</a></li>
+<li id="s65" value="65">Kartika dkk., Jurnal Pendidikan IPS 16(3), 2026: perilaku ramah lingkungan mahasiswa Universitas Negeri Gorontalo — <a href="http://www.ejournal.tsb.ac.id/index.php/jpi/article/download/4540/1894" target="_blank" rel="noopener">http://www.ejournal.tsb.ac.id/index.php/jpi/article/download/4540/1894</a></li>
+<li id="s66" value="66">Perilaku mahasiswa Universitas YARSI (Syntax Idea) — <a href="https://jurnal.syntax-idea.co.id/index.php/syntax-idea/article/view/11519" target="_blank" rel="noopener">https://jurnal.syntax-idea.co.id/index.php/syntax-idea/article/view/11519</a></li>
+<li id="s67" value="67">Analisis Pemahaman Mahasiswa terhadap Pengendalian Sampah Plastik di Perguruan Tinggi (Nuansa Akademik, CC BY-SA 4.0) — <a href="https://jurnal.ucy.ac.id/index.php/nuansaakademik/article/download/2824/2781/13274" target="_blank" rel="noopener">https://jurnal.ucy.ac.id/index.php/nuansaakademik/article/download/2824/2781/13274</a></li>
+<li id="s68" value="68">Tesis Unhas: pemuda dan pengelolaan sampah Kecamatan Sinjai Utara — <a href="https://repository.unhas.ac.id/id/eprint/27874/1/TESIS%20%20ABDUL%20WARIS%20(P022181032).pdf" target="_blank" rel="noopener">https://repository.unhas.ac.id/id/eprint/27874/1/TESIS%20%20ABDUL%20WARIS%20(P022181032).pdf</a></li>
+</ol></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ajakan bertindak -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Mulai dari Satu Langkah Kecil Hari Ini</h2>
+    <p>Pilah sampah dari dapur, bawa tumbler dan tas belanja, lalu setor ke bank sampah terdekat.</p>
+    <a href="#kalkulator" class="btn-gl btn-lime">Hitung Jejak Karbon <span class="arr">→</span></a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5" style="margin-bottom:24px">
+        <div class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#2F7A14"/><path d="M29 9C17 9 10 15 10 23c0 2 .6 3.7 1.7 5C13 21 18 16 24 14c-4 3-7 7-8.500 12.500 1 .3 2 .5 3 .5 8 0 12-7 10.500-18z" fill="#fff"/></svg>Green<b>Life</b></div>
+        <p>Platform aksi nyata lingkungan untuk memantau jejak karbon, mengelola sampah, dan membangun kebiasaan berkelanjutan.</p>
+      </div>
+      <div class="col-xs-6 col-md-3" style="margin-bottom:24px"><h5>Jelajahi</h5>
+        <a href="#statistik">Statistik</a><a href="#edukasi">Edukasi 3R/5R</a><a href="#kalkulator">Eco Calculator</a><a href="#banksampah">Bank Sampah</a><a href="#kebijakan">Dasar Kebijakan</a></div>
+      <div class="col-xs-6 col-md-4" style="margin-bottom:24px"><h5>Kontak DLH Makassar</h5>
+        <span style="display:block;margin-bottom:8px">Jl. Urip Sumoharjo No. 8, Makassar</span>
+        <a href="https://wa.me/6281141100777" target="_blank" rel="noopener">WhatsApp 0811-4110-0777</a>
+        <a href="https://banksampah.makassarkota.go.id" target="_blank" rel="noopener">banksampah.makassarkota.go.id</a></div>
+    </div>
+    <div class="copy">© <span id="year">2026</span> GreenLife · Tugas Rancangan Web · Data bersifat edukatif dan dapat berubah mengikuti pembaruan sumber resmi.</div>
+  </div>
+</footer>
+
+<a href="#beranda" class="to-top" id="to-top" aria-label="Kembali ke atas">↑</a>
+<div class="sticky-cta"><a class="a" href="#kalkulator">Hitung Jejak Karbon</a><a class="b" href="#banksampah">Cari Bank Sampah</a></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/main.js?v=3"></script>
+</body>
+</html>
